@@ -1,0 +1,115 @@
+body {
+    background-color: white;
+}
+.container {
+    margin-left: 7%;
+    margin-right: 5%;
+    width: 90%;
+    text-align: center;
+    align-items: center;
+}
+h1 {
+    display: inline-block;
+    width: 100%;
+}
+.block {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 340px;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+    margin: 14px;
+    min-width: 28%;
+    float: left;
+}
+div {
+    margin: 6px;
+}
+p {
+    font-size: 14px;
+    margin: 6px;
+}
+.title {
+    font-size: 18px;
+    font-weight: bold;
+}
+/* button {
+    font-size: 12px;
+    font-weight: bold;
+    width: 40%;
+    background-color: #ededed;
+    border: black 1px solid;
+    border-radius: 4px;
+    transition: background-color 0.2s ease-in;
+    color: black;
+    margin-bottom: 6px;
+    display: block;
+} */
+.button {
+    text-decoration: none;
+    margin-left: 35%;
+    margin-right: 30%;
+    font-size: 12px;
+    font-weight: bold;
+    width: 30%;
+    line-height: 25px;
+    background-color: #ededed;
+    border: black 1px solid;
+    border-radius: 4px;
+    transition: background-color 0.2s ease-in;
+    color: black;
+    margin-bottom: 6px;
+    display: block;
+}
+.button:hover {
+    background-color: #fcfacf;
+    transition: background-color 0.2s ease-in;
+}
+.vote {
+    text-decoration: none;
+    color: black;
+}
+img {
+    max-width: 332px;
+    width: 340px;
+    margin-top: 7px;
+    border-radius: 3px;
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    border-bottom: 0.5px gray solid;
+  }
+  
+.navcontent {
+    float: right;
+  }
+  
+.navcontent a {
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: color 0.2s ease-in;
+  }
+.navcontent a:hover {
+    color:#bab102;
+    transition: color 0.2s ease-in;
+  }
+.logocsg {
+    margin-left: 5%;
+    max-height: 70px;
+    width: auto;
+}
+p {
+    font-size: 15px;
+}
