@@ -1,12 +1,23 @@
 body {
     background-color: white;
 }
-.container {
-    margin-left: 8%;
-    margin-right: 5%;
-    width: 90%;
-    text-align: center;
-    align-items: center;
+@media screen and (min-width: 600px) {
+    .container {
+        margin-left: 8%;
+        margin-right: 5%;
+        width: 90%;
+        text-align: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 600px) {
+    .container {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        text-align: center;
+        align-items: center;
+    }
 }
 h1 {
     display: inline-block;
@@ -110,13 +121,13 @@ img {
 }
 @media screen and (max-width: 600px) {
 .navcontent a {
-        margin-top: 9px;
+        margin-top: 12px;
         font-size: 15px;
         font-weight: bold;
         display: block;
         color: black;
         text-align: center;
-        padding: 14px 16px;
+        padding: 8px 10px;
         text-decoration: none;
         transition: color 0.2s ease-in;
       }
