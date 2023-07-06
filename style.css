@@ -1,9 +1,41 @@
 body {
     background-color: white;
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 1490px){
     .container {
-        margin-left: 8%;
+        margin-left: 7%;
+        margin-right: 5%;
+        width: 90%;
+        text-align: center;
+        align-items: center;
+    }
+    .block {
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 4px;
+        width: 380px;
+        height: auto;
+        text-align: center;
+        margin: 10px;
+        min-width: 400px;
+        float:inline-start;
+        margin-left: 30px;
+        transition: scale 0.15s ease-in-out;
+    }
+    .block:hover {
+        scale: 1.02;
+        transition: scale 0.15s ease-in-out;
+    }
+    img {
+        max-width: 392px;
+        width: 400px;
+        margin-top: 7px;
+        border-radius: 3px;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 1490px){
+    .container {
+        margin-left: 10%;
         margin-right: 5%;
         width: 90%;
         text-align: center;
@@ -21,6 +53,17 @@ body {
         min-width: 340px;
         float:inline-start;
         margin-left: 30px;
+        transition: scale 0.15s ease-in-out;
+    }
+    .block:hover {
+        scale: 1.02;
+        transition: scale 0.15s ease-in-out;
+    }
+    img {
+        max-width: 332px;
+        width: 340px;
+        margin-top: 7px;
+        border-radius: 3px;
     }
 }
 @media screen and (max-width: 500px) {
@@ -46,6 +89,12 @@ body {
     }
     h1 {
         font-size: 18px;
+    }
+    img {
+        max-width: 332px;
+        width: 340px;
+        margin-top: 7px;
+        border-radius: 3px;
     }
 }
 h1 {
@@ -103,12 +152,6 @@ p {
     text-decoration: none;
     color: black;
 }
-img {
-    max-width: 332px;
-    width: 340px;
-    margin-top: 7px;
-    border-radius: 3px;
-}
 .navbar {
     list-style-type: none;
     margin: 0;
@@ -165,4 +208,32 @@ img {
 }
 p {
     font-size: 15px;
+}
+
+.footer {
+    border-top: 0.5px gray solid;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 0;
+    width:90%;
+    height: 90px;
+}
+.footer_title {
+    margin-top: 8px;
+    margin-bottom: 16px;
+    display: block;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.footer_logo {
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 90px;
+    width: auto;
+    transition: scale 0.25s ease-in-out;
+}
+.footer_logo:hover {
+    scale: 1.2;
+    transition: scale 0.3s ease-in-out;
 }
