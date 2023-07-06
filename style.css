@@ -23,8 +23,8 @@ body {
         transition: scale 0.15s ease-in-out;
     }
     .block:hover {
-        scale: 1.02;
-        transition: scale 0.15s ease-in-out;
+        sscale: 1.12;
+        transition: scale 0.13s ease-in-out;
     }
     img {
         max-width: 392px;
@@ -55,7 +55,7 @@ body {
         transition: scale 0.13s ease-in-out;
     }
     .block:hover {
-        scale: 1.122;
+        scale: 1.12;
         transition: scale 0.13s ease-in-out;
     }
     img {
@@ -85,6 +85,10 @@ body {
         text-align: center;    
         min-width: 340px;
         float:inline-start;
+    }
+    .block:hover {
+        scale: 1.12;
+        transition: scale 0.13s ease-in-out;
     }
     h1 {
         font-size: 20px;
