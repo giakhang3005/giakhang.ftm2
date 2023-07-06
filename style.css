@@ -86,10 +86,6 @@ body {
         min-width: 340px;
         float:inline-start;
     }
-    .block:hover {
-        scale: 1.12;
-        transition: scale 0.13s ease-in-out;
-    }
     h1 {
         font-size: 20px;
     }
