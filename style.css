@@ -213,9 +213,9 @@ p {
 .footer {
     border-top: 0.5px gray solid;
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 35px;
     padding: 0;
-    width:90%;
+    width:95%;
     height: 90px;
 }
 .footer_title {
