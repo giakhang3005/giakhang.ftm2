@@ -74,6 +74,7 @@ p {
     color: black;
     margin-bottom: 6px;
     display: block;
+    box-shadow: 1.5px 1.5px black;
 }
 .button:hover {
     background-color: #fcfacf;
