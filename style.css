@@ -9,32 +9,45 @@ body {
         text-align: center;
         align-items: center;
     }
+    .block {
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 4px;
+        width: 340px;
+        height: auto;
+        margin: 10px;
+        text-align: center;
+        margin: 14px;
+        min-width: 340px;
+        float:inline-start;
+        margin-left: 30px;
+    }
 }
 @media screen and (max-width: 500px) {
     .container {
-        margin-left: 0;
+        margin-left: 8%;
         margin-right: 5%;
         width: 90%;
         text-align: center;
         align-items: center;
     }
+    .block {
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 4px;
+        width: 340px;
+        height: auto;
+        margin: 10px;
+        text-align: center;
+        margin: 8px;
+        min-width: 340px;
+        float:inline-start;
+        margin-left: 15px;
+    }
 }
 h1 {
     display: inline-block;
     width: 100%;
-}
-.block {
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 4px;
-    width: 340px;
-    height: auto;
-    margin: 10px;
-    text-align: center;
-    margin: 14px;
-    min-width: 340px;
-    float:inline-start;
-    margin-left: 30px;
 }
 div {
     margin: 6px;
