@@ -2,7 +2,7 @@ body {
     background-color: white;
 }
 .container {
-    margin-left: 7%;
+    margin-left: 8%;
     margin-right: 5%;
     width: 90%;
     text-align: center;
@@ -90,7 +90,7 @@ img {
 .navcontent {
     float: right;
   }
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
 .navcontent a {
     margin-top: 12px;
     font-size: 20px;
@@ -108,9 +108,9 @@ img {
     width: auto;
 }
 }
-@media screen and (max-width: 500px) {
-    .navcontent a {
-        margin-top: 12px;
+@media screen and (max-width: 600px) {
+.navcontent a {
+        margin-top: 9px;
         font-size: 15px;
         font-weight: bold;
         display: block;
