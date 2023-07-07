@@ -290,7 +290,7 @@ p {
 
   .fadein {
     animation-name: fadeIn;
-    animation-duration: 2s;
+    animation-duration: 3s;
   }
 
   .fadeInUp {
