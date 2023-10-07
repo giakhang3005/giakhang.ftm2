@@ -1,4 +1,4 @@
-<span class="demo">Demo with Github Pages: [FTM2 Demo Voting Site]([https://filmstorage.giakhang3005.com](https://giakhang3005.github.io/giakhang.ftm2/)) </span>
+<span class="demo">Demo with Github Pages: [FTM 2 Voting Site](https://giakhang3005.github.io/giakhang.ftm2/)
 
 
 <h3>Using</h3>
