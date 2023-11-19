@@ -1,3 +1,5 @@
+<h1>Welcome to Demo Voting Site</h1>
+
 <span class="demo">Demo with Github Pages: [FTM 2 Voting Site](https://giakhang3005.github.io/giakhang.ftm2/)
 
 
